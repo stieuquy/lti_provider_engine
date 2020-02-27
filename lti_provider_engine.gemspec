@@ -19,7 +19,7 @@ SUM
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", ">= 3.2", "< 4.2"
+  s.add_dependency "rails", "~> 5.2.4", ">= 5.2.4.1"
   s.add_dependency 'ims-lti', '1.1.4'
 
   s.add_development_dependency "sqlite3"
@@ -30,7 +30,6 @@ SUM
   s.add_development_dependency "rspec-rails-mocha"
   s.add_development_dependency "shoulda-matchers"
   s.add_development_dependency "webmock"
-  s.add_development_dependency "debugger"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "rb-fsevent"
 end
